@@ -18,16 +18,22 @@ const Hero = () => {
 					</p>
 					<div className='flex flex-wrap gap-4'>
 						<Link
-							href='#get-started'
+							to='/'
 							className='px-6 py-3 rounded-lg bg-emerald-600 text-white hover:bg-emerald-700 transition'
 						>
-							Get Started
+							Home
 						</Link>
 						<Link
-							href='#learn-more'
+							to='/sales'
 							className='px-6 py-3 rounded-lg border border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition'
 						>
-							Learn More
+							Sales
+						</Link>
+						<Link
+							to='/add-sale'
+							className='px-6 py-3 rounded-lg bg-emerald-600 text-white hover:bg-emerald-700 transition'
+						>
+							Add Sale
 						</Link>
 					</div>
 				</div>
